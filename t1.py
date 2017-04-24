@@ -15,8 +15,6 @@ train = optimizer.minimize(loss)
 # 初始化变量
 init = tf.global_variables_initializer()
 # 启动图 (graph)
-config = tf.ConfigProto()
-exit()
 sess = tf.Session()
 sess.run(init)
 # 拟合平面
